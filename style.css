@@ -298,6 +298,9 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
 }
 
+.portadax {
+    display: block;
+}
 
 /* medias */
 
@@ -309,3 +312,10 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+@media screen and (max-width: 600px){
+
+    .portadax {
+        display: none;
+    }
+
+}
