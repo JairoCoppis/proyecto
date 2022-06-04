@@ -33,6 +33,11 @@ body {
 
 /* Varios */
 
+.nav-container ul {
+    display: flex;
+    list-style-type: none;
+}
+
 .f_size_guardias {
     font-size: 50px;
     margin-top: 40px;
@@ -325,3 +330,13 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     }
 }
+
+@media screen and (max-width:990px){
+   .nav-container ul {
+   
+        display: flex;
+        flex-direction: column;
+    
+    }
+}
+
