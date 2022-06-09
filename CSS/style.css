@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*Inicio Footer*/
 .new_footer_area {
-  background: #fbfbfd; }
+  background: white; }
 
 .new_footer_top {
   padding: 120px 0px 270px;
@@ -23,7 +23,7 @@
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
-  color: #6a7695;
+  color: #7f88a6;
   margin-bottom: 20px; }
 
 .new_footer_top .company_widget .f_subscribe_two .btn_get {
@@ -35,7 +35,7 @@
   color: #5e2ced; }
 
 .btn_get:hover {
-  color: #fff;
+  color: white;
   background: #6754e2;
   border-color: #6754e2;
   -webkit-box-shadow: none;
@@ -74,9 +74,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   border-radius: 50%;
   font-size: 14px;
   line-height: 45px;
-  color: #858da8;
+  color: #6a7695;
   display: inline-block;
-  background: #ebeef5;
+  background: white;
   text-align: center;
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
@@ -90,7 +90,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   box-shadow: none;
   background: #5e2ced;
   border-color: #5e2ced;
-  color: #fff; }
+  color: white; }
 
 .btn_get_two:hover {
   background: transparent;
@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
   box-sizing: border-box; }
 
 body {
-  background: #fbfbfd; }
+  background: white; }
 
 /*Fin Body*/
 /* Video ytb Sensa*/
