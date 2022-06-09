@@ -126,32 +126,26 @@
 }
 a {
 	&:hover {
-		text-decoration: none;
-		outline: none;
+		@extend %none;
 	}
 	&:focus {
-		text-decoration: none;
-		outline: none;
+		@extend %none;
 	}
 }
 .btn {
 	&:hover {
-		text-decoration: none;
-		outline: none;
+		@extend %none;
 	}
 	&:focus {
-		text-decoration: none;
-		outline: none;
+		@extend %none;
 	}
 }
 button {
 	&:hover {
-		text-decoration: none;
-		outline: none;
+		@extend %none;
 	}
 	&:focus {
-		text-decoration: none;
-		outline: none;
+		@extend %none;
 	}
 }
 .f_widget.about-widget {
