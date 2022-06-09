@@ -1,18 +1,11 @@
 @import "../SCSS/components/footer";
 @import "../SCSS/components/header";
-
-* {
-
-    padding: 0;
-    
-    margin: 0;
-    
-    box-sizing: border-box;
-    
-}
-
-
-body {
-    background: #fbfbfd;
-}
+@import "../SCSS/components/body";
+@import "../SCSS/base/videos";
+@import "../SCSS/base/mediaq";
+@import "../SCSS/base/fonts";
+@import "../SCSS/base/wpp";
+@import "../SCSS/base/flecha";
+@import "../SCSS/base/cta";
+@import "../scss/base/vermas";
 
