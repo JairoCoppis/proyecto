@@ -1,9 +1,7 @@
-/* Efecto sobre "call to accion" Guardias */
-
-.box:hover {
-    transform: scale(1.1);
-    transition-property: all;
-    transition-duration: 2s;
+.box {
+	&:hover {
+		transform: scale(1.1);
+		transition-property: all;
+		transition-duration: 2s;
+	}
 }
-
-/* Fin Efecto sobre "call to accion" Guardias */
