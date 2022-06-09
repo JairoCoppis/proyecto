@@ -160,8 +160,6 @@ body {
 .videod {
   display: none; }
 
-.portadax {
-  display: block; }
 
 @media screen and (max-width: 600px) {
   .videod {
@@ -220,3 +218,8 @@ body {
 a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   text-decoration: none;
   outline: none; }
+
+  .img-fluid {
+    max-width:100%;
+    height:auto;
+  }
