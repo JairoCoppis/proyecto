@@ -1,7 +1,7 @@
 /*Inicio Footer*/
 
 .new_footer_area {
-    background: #fbfbfd;
+    background: white;
 }
 
 .new_footer_top {
@@ -17,14 +17,14 @@
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
-    color: #7f88a6;
+    color: $grisfooter;
     padding: 27px 0px;
 }
 .new_footer_top .company_widget p {
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
-    color: #6a7695;
+    color: $grisfooter;
     margin-bottom: 20px;
 }
 .new_footer_top .company_widget .f_subscribe_two .btn_get {
@@ -33,12 +33,12 @@
 }
 .btn_get_two:hover {
     background: transparent;
-    color: #5e2ced;
+    color: $azulceruleo;
 }
 .btn_get:hover {
-    color: #fff;
-    background: #6754e2;
-    border-color: #6754e2;
+    color: white;
+    background: $azulroyal;
+    border-color: $azulroyal;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
@@ -49,7 +49,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 
 .new_footer_top .f_widget.about-widget .f_list li a:hover{
-    color: #0dac14;
+    color: $verdecelda;
 }
 .new_footer_top .f_widget.about-widget .f_list li {
     margin-bottom: 11px;
@@ -68,7 +68,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     height: 44px;
     line-height: 43px;
     background: transparent;
-    border: 1px solid #e2e2eb;
+    border: 1px solid $blancogrisaseo;
     font-size: 24px;
 }
 .f_social_icon a {
@@ -77,9 +77,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     border-radius: 50%;
     font-size: 14px;
     line-height: 45px;
-    color: #858da8;
+    color: $azulgrisaseo;
     display: inline-block;
-    background: #ebeef5;
+    background: white;
     text-align: center;
     -webkit-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
@@ -93,19 +93,19 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .btn_get_two {
     -webkit-box-shadow: none;
     box-shadow: none;
-    background: #5e2ced;
-    border-color: #5e2ced;
-    color: #fff;
+    background: $azulceruleo;
+    border-color: $azulceruleo;
+    color: white;
 }
 
 .btn_get_two:hover {
     background: transparent;
-    color: #5e2ced;
+    color: $azulceruleo;
 }
 
 .new_footer_top .f_social_icon a:hover {
-    background: #5e2ced;
-    border-color: #5e2ced;
+    background: $azulceruleo;
+    border-color: $azulceruleo;
   color:white;
 }
 .new_footer_top .f_social_icon a + a {
@@ -113,7 +113,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .new_footer_top .f-title {
     margin-bottom: 30px;
-    color: #263b5e;
+    color: $cobaltooscuro;
 }
 .f_600 {
     font-weight: 600;
@@ -123,10 +123,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #4b505e;
+    color: $azulraf;
 }
 .new_footer_top .f_widget.about-widget .f_list li a {
-    color: #6a7695;
+    color: $azulgrisaseo;
 }
 
 
