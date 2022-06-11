@@ -85,7 +85,7 @@
   .new_footer_top .footer_bg {
     position: absolute;
     bottom: 0;
-    background: url("../images/footer_bg.png") no-repeat scroll center 0;
+    background: url("../images/footer_bg.svg") no-repeat scroll center 0;
     width: 100%;
     height: 266px; }
     .new_footer_top .footer_bg .footer_bg_one {
