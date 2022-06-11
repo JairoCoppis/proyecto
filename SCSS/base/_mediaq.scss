@@ -26,3 +26,47 @@
 		}
 	}
 }
+
+
+
+.sensa-mobile {
+	display: none;
+}
+
+@media screen and (max-width:989px) {
+	.sensa-mobile {
+
+		display: block;
+
+	}
+}
+
+@media (min-width:990px) {
+	.sensa-mobile {
+	
+		display: none;
+
+	}
+}
+
+
+
+.sensa-desktop {
+	display: none;
+}
+
+@media screen and (min-width:990px) {
+	.sensa-desktop {
+
+		display: block;
+
+	}
+}
+
+@media (max-width: 600px) {
+	.sensa-desktop {
+	
+		display: none;
+
+	}
+}
