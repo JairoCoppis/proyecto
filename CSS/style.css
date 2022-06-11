@@ -1,3 +1,24 @@
+.videod {
+  display: none; }
+
+.portadax {
+  display: block; }
+
+@media screen and (max-width: 600px) {
+  .videod {
+    display: block; }
+  .portadax {
+    display: none; } }
+
+@media (max-width: 600px) and (min-width: 400px) {
+  .footersize {
+    text-align: center; } }
+
+@media screen and (max-width: 990px) {
+  .nav-container ul {
+    display: flex;
+    flex-direction: column; } }
+
 .new_footer_area {
   background: #fbfbfd; }
   .new_footer_area .footer_bottom {
@@ -152,6 +173,10 @@ h6 {
 body {
   background: white; }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto; }
+
 .tutorial-container {
   display: flex;
   justify-content: center;
@@ -160,6 +185,8 @@ body {
 .videod {
   display: none; }
 
+.portadax {
+  display: block; }
 
 @media screen and (max-width: 600px) {
   .videod {
@@ -218,8 +245,3 @@ body {
 a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   text-decoration: none;
   outline: none; }
-
-  .img-fluid {
-    max-width:100%;
-    height:auto;
-  }
