@@ -17,11 +17,4 @@ body {
     max-width:100%;
     height:auto;
   }
-@mixin separacion {
-    margin-bottom: 10px;
-}
-  
 
-.tarjetalogo img {
-    @include separacion;
-}

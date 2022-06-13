@@ -156,9 +156,6 @@ body {
   max-width: 100%;
   height: auto; }
 
-.tarjetalogo img {
-  margin-bottom: 10px; }
-
 .tutorial-container {
   display: flex;
   justify-content: center;
@@ -214,6 +211,9 @@ body {
 @media (max-width: 600px) {
   .sensa-desktop {
     display: none; } }
+
+.tarjetalogo img {
+  margin-bottom: 10px; }
 
 @font-face {
   font-family: gothamroundedalertas;
