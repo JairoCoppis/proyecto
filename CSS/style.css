@@ -185,6 +185,11 @@ body {
   .footersize {
     text-align: center; } }
 
+@media screen and (max-width: 990px) {
+  .nav-container ul {
+    display: flex;
+    flex-direction: column; } }
+
 .sensa-mobile {
   display: none; }
 

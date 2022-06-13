@@ -5,6 +5,8 @@
 	display: block;
 }
 
+
+
 @media screen and (max-width: 600px) {
 	.videod {
 		display: block
@@ -19,14 +21,14 @@
 	}
 }
 
-// @media screen and (max-width:990px) {
-// 	.nav-container {
-// 		ul {
-// 			display: flex
-// 			flex-direction: column;
-// 		}
-// 	}
-// }
+@media screen and (max-width:990px) {
+	.nav-container {
+		ul {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+ }
 
 
 
