@@ -7,25 +7,26 @@
 
 @media screen and (max-width: 600px) {
 	.videod {
-		display: block;
+		display: block
 	}
 	.portadax {
-		display: none;
+		display: none
 	}
 }
 @media (max-width: 600px) and (min-width: 400px) {
 	.footersize {
-		text-align: center;
+		text-align: center
 	}
 }
-@media screen and (max-width:990px) {
-	.nav-container {
-		ul {
-			display: flex;
-			flex-direction: column;
-		}
-	}
-}
+
+// @media screen and (max-width:990px) {
+// 	.nav-container {
+// 		ul {
+// 			display: flex
+// 			flex-direction: column;
+// 		}
+// 	}
+// }
 
 
 
@@ -36,7 +37,7 @@
 @media screen and (max-width:989px) {
 	.sensa-mobile {
 
-		display: block;
+		display: block
 
 	}
 }
@@ -44,7 +45,7 @@
 @media (min-width:990px) {
 	.sensa-mobile {
 	
-		display: none;
+		display: none
 
 	}
 }
@@ -58,7 +59,7 @@
 @media screen and (min-width:990px) {
 	.sensa-desktop {
 
-		display: block;
+		display: block
 
 	}
 }
@@ -66,7 +67,7 @@
 @media (max-width: 600px) {
 	.sensa-desktop {
 	
-		display: none;
+		display: none
 
 	}
 }
