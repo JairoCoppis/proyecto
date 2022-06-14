@@ -215,6 +215,10 @@ body {
 .tarjetalogo img {
   margin-bottom: 10px; }
 
+a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+  text-decoration: none;
+  outline: none; }
+
 @font-face {
   font-family: gothamroundedalertas;
   src: url("../Fonts/GothamRnd-Book.otf"); }
@@ -253,7 +257,3 @@ body {
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 10px; }
-
-a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
-  text-decoration: none;
-  outline: none; }

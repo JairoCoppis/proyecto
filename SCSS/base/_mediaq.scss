@@ -82,3 +82,8 @@
 .tarjetalogo img {
     @include separacion;
 }
+
+%none {
+    text-decoration: none;
+    outline: none;
+}
