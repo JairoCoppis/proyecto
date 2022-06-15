@@ -156,6 +156,9 @@ body {
   max-width: 100%;
   height: auto; }
 
+.disclaimer {
+  display: none; }
+
 .tutorial-container {
   display: flex;
   justify-content: center;
