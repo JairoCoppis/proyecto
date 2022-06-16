@@ -7,8 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=9" />
 
-    <title>Bootstrap-JairoCoppis</title>
-    <!--Servicios Sociales-->
+    <title>Seccion Servicios Sociales</title>  <!--Servicios Sociales-->
+   
+
+    <!-- Meta description - 70 a 320 caracteres -->
+
+    <meta name="description" content="Somos una cooperativa que desde sus inicios brinda diversos servicios para satisfacer las necesidades de sus asociados en la localidad de Darregueira y la región, reinvirtiendo para mejorar y ampliar sus prestaciones.">
+
+    <!-- 18 kw -->
+
+    <meta name="keywords" content="Guardias, Energia, Agua y Saneamiento, Servicios Sociales, Internet, Webapp, PWA, Informacion, Darregueira, Cortes de agua, Cortes de energia, Cortes de luz, Cortes de internet, Cortesde TV, Celda, Alertas, Sensa, Canal de Telegram, Lugares y formas de pago">
+
+    <!--  Protocolo open graph -->
+
+    <meta property="og:title" content="CELDa, Cooperativa electrica de servicios Darregueira Limitada">
+    <meta property="og:title" content="https://www.Alertacelda.com.ar">
+    <meta property="og:description" content="Enterate de las ultimas novedades en servicios, horarios y mas! +info en https//www.celda.com.ar">
+
 
     <!-- Bootstrap -->
 
@@ -33,23 +48,23 @@
       href="https://themify.me/wp-content/themes/themify-v32/themify-icons/themify-icons.css"
     />
 
-    <link rel="stylesheet" href="CSS/style.css" />
-    <!--CSS-->
+    <link rel="stylesheet" href="CSS/style.css" /> <!--CSS-->
+    
 
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!--AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!--AOS-->
+    
 
-    <link rel="icon" type="image/png" href="images/favicon.ico" />
-    <!--Iconito de pestaña del navegador-->
+    <link rel="icon" href="images/favicon.ico" /> <!--Iconito de pestaña del navegador-->
+    
   </head>
 
   <body>
     <header>
-      <div class="m-1">
+      <div class="m-1"> <!-- Nav -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <a href="index.html" class="navbar-brand" id="logoinicio">
-              <img src="images/celdalogo.png" height="100" alt="CoolBrand" />
+              <img src="images/celdalogo.svg" height="100" alt="Logo de Celda" />
             </a>
             <button
               type="button"
@@ -64,7 +79,7 @@
               class="collapse navbar-collapse nav-container nav-item"
               id="navbarCollapse"
             >
-              <div class="navbar-nav">
+            <div class="navbar-nav mt-2">
                 <nav>
                   <ul>
                     <li>
@@ -105,44 +120,86 @@
             </div>
           </div>
         </nav>
-      </div>
+      </div> <!-- Fin Nav -->
     </header>
 
     <main>
       <!-- Video Sector -->
 
-      <div class="ratio ratio-16x9">
-        <video
-          src="videos/INTRO-Servicios-Sociales-1.mp4"
-          autoplay
-          muted
-          loop
-          allowfullscreen
-        ></video>
+      <section> <!--Breadcrumb -->
+        <div class="d-flex justify-content-center">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+              <li class="breadcrumb-item"><a href="index2.html">Blog</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Servicios Sociales</li>
+            </ol>
+          </nav>
+        </div>
+      </section> <!-- Fin Breadcrumb -->
+      
+
+    <!-- Video Sector -->
+
+    <div class="ratio ratio-16x9">
+      <video
+        src="videos/INTRO-Servicios-Sociales-1.mp4"
+        autoplay
+        muted
+        loop
+        allowfullscreen
+        title="Video de introduccion a la seccion Servicios Sociales"
+      ></video>
+    </div>
+
+    <!-- Fin Video Sector -->
+
+
+    <!-- Inicio Alerta -->
+
+    <section class="container mt-4">
+      <div class="row">
+        <div class="d-flex justify-content-center flex-wrap mt-4">
+          <div class="col-sm-12 col-lg-4 col-md-12 tarjeta-item tarjetalogo">
+            <img
+              src="images/serviciossociales.svg"
+              class="img-fluid"
+              alt="Logo de la seccion Servicios Sociales"
+              
+            />
+            <img 
+              src="images/Sepelio.svg" 
+              alt="Parte informativo de Sepelio"
+              class="img-fluid"
+              >
+            
+          </div>
+        </div>
       </div>
 
       <!-- Fin Video Sector -->
 
-      <!-- Inicio Alerta -->
+    <!-- Inicio Guardia -->
+    <section class="d-flex justify-content-center">
+      <h3 class="f-title f_size_guardias">Cel. de Guardia</h3>
+    </section>
+    <!-- Fin Guardia -->
 
-      <section class="container mt-4">
+
+    <!-- Inicio Call to action Guardia -->
+
+    <section class="container" id="Guardias">
+      <div class="d-flex justify-content-center mt-3 f_size_guardias">
         <div class="row">
-          <div class="d-flex justify-content-center flex-wrap mt-4">
-            <div class="col-sm-12 col-lg-5 col-md-12 tarjeta-item">
-              <img
-                src="images/serviciossociales.png"
-                width="300px"
-                alt="Servicios Sociales"
-              />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quibusdam, sapiente cum fuga magni nisi odio, eveniet natus et
-                tempora odit ducimus ipsa voluptates?
-                <em>
-                  Dolorum, sequi impedit. Omnis, suscipit! Reiciendis,
-                  harum..</em
-                >
-              </p>
+          <div class="mt-4 box col-sm-12 col-lg-12 col-md-12">
+            <div>
+              <a
+                class="Servicios Sociales"
+                href="https://wa.me/2923431520?text= Hola! necesito ayuda"
+                role="button"
+              >
+                <img src="images/serviciossociales.svg" class="img-fluid" alt="Boton para comunicarse con la Guardia: Servicios Sociales"  
+              /></a>
             </div>
           </div>
         </div>
@@ -150,13 +207,52 @@
 
       <!-- Fin Alerta -->
 
-      <!-- Inicio Guardias -->
-      <section class="d-flex justify-content-center">
-        <h3 class="f-title f_size_guardias">Guardias</h3>
-      </section>
-      <!-- Fin Guardias -->
 
-      <!-- Inicio Call to action Guardias -->
+    <!-- Inicio DropDown -->
+
+    <div class="dropdown d-flex justify-content-center mt-5">
+      <button
+        class="btn btn-secondary dropdown-toggle"
+        type="button"
+        id="dropdownMenuButton1"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        +Mas
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+        <li><a class="dropdown-item" href="index2.html">Blog</a></li>
+        <li><a class="dropdown-item" href="index3.html">Energia</a></li>
+        <li>
+        <li><a class="dropdown-item" href="index4.html">Tv e Internet</a></li>
+        <li>
+          <a class="dropdown-item" href="index5.html">Agua y Saneamiento</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Fin DropDown -->
+
+
+
+    <section class="container-wpp"> <!-- Wpp Fixed-->
+      
+      <nav class="item-fixed">
+        <ul>
+          <li>
+            <a
+              href="https://wa.me/2924420035?text= Hola! :) necesito ayuda"
+              role="button"
+            >
+              <img class="br" alt="Logo call to action de whatsapp" src="images/wppfixed.svg" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+    <!--Fin Fixed-->
 
       <section class="container" id="Guardias">
         <div class="d-flex justify-content-center mt-3 f_size_guardias">
@@ -299,7 +395,7 @@
               >
                 <h3 class="f-title f_600 t_color f_size_18">Ayuda</h3>
                 <ul class="list-unstyled f_list">
-                  <li><a href="#">FAQ</a></li>
+                  <li><a href="https://www.celda.com.ar/institucional/sistema-cooperativo">Sistema Cooperativo</a></li>
                   <li>
                     <a
                       href="https://www.celda.com.ar/institucional/lugares-y-formas-de-pago/"
@@ -342,7 +438,7 @@
                   <h3 class="f-title f_600 t_color f_size_18 mt-5">
                     Telegram QR
                   </h3>
-                  <img src="images/qr2.PNG" alt="Telegram" />
+                  <img src="images/qr-2.svg" alt="Qr del canal de Telegram" />
                 </div>
               </div>
             </div>
@@ -369,15 +465,14 @@
       </div>
 
       <!-- Fin Footer -->
-
-      <div class="posicionflecha">
-        <!--Manera rustica de volver a inicio-->
+      
+      <div class="posicionflecha"> <!-- Flecha volver a inicio-->
 
         <a href="#logoinicio" role="button"
           ><img
             class="volverainicio-item"
-            src="images/flechaarriba.png"
-            alt="Volver a inicio"
+            src="images/flechaarriba.svg"
+            alt="Presiona para Volver a inicio"
         /></a>
       </div>
     </footer>
@@ -393,5 +488,6 @@
     </script>
 
     <!-- Fin Scripts -->
+
   </body>
 </html>

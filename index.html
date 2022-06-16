@@ -7,8 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=9" />
 
-    <title>Bootstrap-JairoCoppis</title>
-    <!-- Index Principal -->
+    <title>Proyectocoder2022-Celdapage-JairoCoppis</title> <!-- Index Principal -->
+    
+
+    <!-- Meta description - 70 a 320 caracteres -->
+
+    <meta
+      name="description"
+      content="Somos una cooperativa que desde sus inicios brinda diversos servicios para satisfacer las necesidades de sus asociados en la localidad de Darregueira y la región, reinvirtiendo para mejorar y ampliar sus prestaciones."
+    />
+
+    <!-- 18 kw -->
+
+    <meta
+      name="keywords"
+      content="Guardias, Energia, Agua y Saneamiento, Servicios Sociales, Internet, Webapp, PWA, Informacion, Darregueira, Cortes de agua, Cortes de energia, Cortes de luz, Cortes de internet, Cortesde TV, Celda, Alertas, Sensa, Canal de Telegram, Lugares y formas de pago"
+    />
+
+    <!--  Protocolo open graph -->
+
+    <meta
+      property="og:title"
+      content="CELDa, Cooperativa electrica de servicios Darregueira Limitada"
+    />
+    <meta property="og:title" content="https://www.Alertacelda.com.ar" />
+    <meta
+      property="og:description"
+      content="Enterate de las ultimas novedades en servicios, horarios y mas! +info en https//www.celda.com.ar"
+    />
 
     <!-- Bootstrap -->
 
@@ -34,22 +60,28 @@
       href="https://themify.me/wp-content/themes/themify-v32/themify-icons/themify-icons.css"
     />
 
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- AOS -->
+    <link rel="stylesheet" href="CSS/style.css" /> <!-- CSS -->
+    
 
-    <link rel="icon" type="image/png" href="images/favicon.ico" />
-    <!-- Icono -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />  <!-- AOS -->
+   
+
+    <link rel="icon" href="images/favicon.ico" /> <!-- Icono -->
+    
   </head>
+
 
   <body>
     <header>
       <div class="m-1">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
+          <div class="container-fluid img-fluid">
             <a href="#" class="navbar-brand" id="logoinicio">
-              <img src="images/celdalogo.png" height="100" alt="CoolBrand" />
+              <img
+                src="images/celdalogo.svg"
+                height="100"
+                alt="Logo de Celda"
+              />
             </a>
             <button
               type="button"
@@ -64,7 +96,7 @@
               class="collapse navbar-collapse nav-container nav-item"
               id="navbarCollapse"
             >
-              <div class="navbar-nav">
+              <div class="navbar-nav mt-2">
                 <nav>
                   <ul>
                     <li>
@@ -108,20 +140,22 @@
       </div>
     </header>
 
-     <main>
+    <main>
+
       <!-- Portada -->
 
-      <section class="portadax">
-        <div class="portada-item">
+      <section class="portada-container">
+        <div class="portada-item portadax">
           <img
-            src="images/bienvenido.jpg"
-            class="d-block w-100"
-            alt="portadadebienvenida"
+            src="images/bienvenido.svg"
+            class="img-fluid"
+            alt="Imagen de bienvenida"
           />
         </div>
       </section>
 
       <!-- Fin Portada -->
+
 
       <!-- Video 75 -->
 
@@ -132,10 +166,12 @@
           muted
           loop
           allowfullscreen
+          title="Video de los 75 años de Celda"
         ></video>
       </div>
 
       <!-- Fin Video 75 -->
+
 
       <!-- Titulo Alertas -->
 
@@ -145,13 +181,18 @@
 
       <!-- Fin Titulo Alertas -->
 
+
       <!-- Alertas -->
 
       <section class="container mt-4" id="Alertas">
         <div class="row">
           <div class="d-flex justify-content-center flex-wrap">
-            <div class="col-sm-12 col-lg-5 col-md-12 tarjeta-item">
-              <img src="images/energia.PNG" width="200px" alt="Energia" />
+            <div class="col-sm-12 col-lg-4 col-md-12 tarjeta-item tarjetalogo">
+              <img
+                src="images/energia.svg"
+                class="img-fluid"
+                alt="Logo de la seccion Energia"
+              />
               <p>
                 CELDA informa un CORTE PROGRAMADO DE ENERGÍA ELÉCTRICA en el
                 Sector Quintas al oeste de la localidad, específicamente
@@ -164,8 +205,12 @@
           </div>
 
           <div class="d-flex justify-content-center flex-wrap mt-4">
-            <div class="col-sm-12 col-lg-5 col-md-12 tarjeta-item">
-              <img src="images/internet.PNG" width="300px" alt="Internet" />
+            <div class="col-sm-12 col-lg-4 col-md-12 tarjeta-item tarjetalogo">
+              <img
+                src="images/internet.svg"
+                class="img-fluid"
+                alt="Logo de la seccion Internet"
+              />
               <p>
                 CELDA informa un CORTE PROGRAMADO DE INTERNET en el Sector
                 Quintas al oeste de la localidad, específicamente usuarios desde
@@ -178,8 +223,12 @@
           </div>
 
           <div class="d-flex justify-content-center flex-wrap mt-4">
-            <div class="col-sm-12 col-lg-5 col-md-12 tarjeta-item">
-              <img src="images/agua.PNG" width="350px" alt="Agua" />
+            <div class="col-sm-12 col-lg-4 col-md-12 tarjeta-item tarjetalogo">
+              <img
+                src="images/agua.svg"
+                class="img-fluid"
+                alt="Logo de la seccion Agua y Saneamiento"
+              />
               <p>
                 CELDA informa un CORTE PROGRAMADO DE AGUA en el Sector Quintas
                 al oeste de la localidad, específicamente usuarios desde calle
@@ -195,6 +244,7 @@
 
       <!-- Fin Alertas -->
 
+
       <!-- Inicio Ver mas -->
 
       <section class="link-container d-flex justify-content-center sizevermas">
@@ -203,7 +253,9 @@
 
       <!-- Fin Ver mas -->
 
+
       <!-- Carrousel -->
+
       <section>
         <div
           id="carouselExampleFade"
@@ -213,41 +265,46 @@
           <div class="carousel-inner">
             <div class="carousel-item">
               <img
-                src="images/Cementerio 1.JPG"
+                src="images/Cementerio 1.svg"
                 class="d-block w-100"
-                alt="Servicios Sociales"
+                alt="Logo de Servicios Sociales"
+                class="img-fluid"
               />
             </div>
 
             <div class="carousel-item">
               <img
-                src="images/DJI_0019.JPG"
+                src="images/DJI_0019.svg"
                 class="d-block w-100"
-                alt="Central"
+                alt="Imagen de la Central de Celda"
+                class="img-fluid"
               />
             </div>
 
             <div class="carousel-item">
               <img
-                src="images/IMG-20171110-WA0003.jpg"
+                src="images/IMG-20171110-WA0003.svg"
                 class="d-block w-100"
-                alt="Energia"
+                alt="Imagen de trabajos de Energia"
+                class="img-fluid"
               />
             </div>
 
             <div class="carousel-item">
               <img
-                src="images/Oficina-comercial.jpg"
+                src="images/Oficina-comercial.svg"
                 class="d-block w-100"
-                alt="Oficina comercial"
+                alt="Imagen de la Oficina comercial"
+                class="img-fluid"
               />
             </div>
 
             <div class="carousel-item active">
               <img
-                src="images/Tanque CELDA.jpg"
+                src="images/Tanque CELDA.svg"
                 class="d-block w-100"
-                alt="Sector Agua"
+                alt="Imagen del tanque del Sector Agua y Saneamiento"
+                class="img-fluid"
               />
             </div>
           </div>
@@ -276,30 +333,49 @@
 
       <!-- Fin Carrousel -->
 
+
       <!-- Inicio Novedad -->
 
-      <section class="link-container d-flex justify-content-center mt-4">
+      <section class="link-container d-flex justify-content-center mt-2">
         <h3 class="f-title f_size_guardias">Novedad</h3>
       </section>
 
       <!-- Fin Novedad -->
 
-      <!-- Tutorial/Video de Sensa -->
+
+      <!-- Tutorial/Video de Sensa - Desktop -->
 
       <section class="tutorial-container">
         <section class="sensa-item">
           <iframe
-            width="400"
-            height="315"
             src="https://www.youtube.com/embed/2Imt0kVjzdI"
-            title="YouTube video player"
+            title="YouTube: Video de Sensa"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
+            class="sensa-desktop"
           ></iframe>
         </section>
       </section>
       <!-- Fin Tutorial -->
+
+
+      <!-- Tutorial/Video de Sensa - Mobile -->
+
+      <section class="tutorial-container">
+        <section class="sensa-item">
+          <iframe
+            src="https://www.youtube.com/embed/2Imt0kVjzdI"
+            title="YouTube: Video de Sensa"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="sensa-mobile"
+          ></iframe>
+        </section>
+      </section>
+      <!-- Fin Tutorial -->
+
 
       <!-- Inicio Tiulo Guardias -->
 
@@ -309,6 +385,7 @@
 
       <!-- Fin Titulo Guardias -->
 
+
       <!-- Inicio Call to action Guardias -->
 
       <section class="container" id="Guardias">
@@ -317,11 +394,14 @@
             <div class="mt-4 box col-sm-12 col-lg-3 col-md-12">
               <div>
                 <a
-                  class="ENERGIA"
+                  class="Energia"
                   href="https://wa.me/2923570765?text= Hola! :) necesito ayuda"
                   role="button"
                 >
-                  <img src="images/energia.PNG" alt="Guardia-Energia"
+                  <img
+                    src="images/energia.svg"
+                    class="img-fluid"
+                    alt="Boton para comunicarse con la Guardia: Energia"
                 /></a>
               </div>
             </div>
@@ -333,7 +413,10 @@
                   href="https://wa.me/2923434205?text= Hola! :) necesito ayuda"
                   role="button"
                 >
-                  <img src="images/internet.PNG" alt="Guardia Internet"
+                  <img
+                    src="images/internet.svg"
+                    class="img-fluid"
+                    alt="Boton para comunicarse con la Guardia: Internet"
                 /></a>
               </div>
             </div>
@@ -345,7 +428,10 @@
                   href="https://wa.me/2923431520?text= Hola! :) necesito ayuda"
                   role="button"
                 >
-                  <img src="images/agua.PNG" alt="Guardia-Agua"
+                  <img
+                    src="images/agua.svg"
+                    class="img-fluid"
+                    alt="Boton para comunicarse con la Guardia: Agua y Saneamiento"
                 /></a>
               </div>
             </div>
@@ -355,6 +441,7 @@
 
       <!-- Fin Call to action -->
 
+
       <!-- Inicio Central -->
 
       <section class="link-container d-flex justify-content-center mt-5">
@@ -363,19 +450,20 @@
 
       <!-- Fin Central -->
 
-      <!-- Maps -->
+      <!-- Maps Central -->
 
       <section class="container d-flex justify-content-center">
         <div class="row">
-          <div class="maps col-lg-8 col-sm-10 text-right mt-5">
+          <div class="maps col-lg-12 col-sm-12 text-right mt-5">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12629.126190451305!2d-63.1581795!3d-37.6895864!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4e3e3f6e23d6ce31!2sCELDa%20Coop%20de%20Serv%20Energia%20Agua%20VCable%20Sepelio%20Internet%20Educacion!5e0!3m2!1ses-419!2sar!4v1653265917268!5m2!1ses-419!2sar"
-              width="400"
+              width="350"
               height="300"
               style="border: 0"
-              allowfullscreen=""
+              allowfullscreen="allowfullscreen"
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
+              title="Ubicacion de la central y oficina comercial de Celda"
             ></iframe>
           </div>
         </div>
@@ -409,8 +497,7 @@
 
       <!-- Fin DropDown -->
 
-      <section class="container-wpp">
-        <!-- Fixed -->
+      <section class="container-wpp"> <!-- Wpp Fixed -->
 
         <nav class="item-fixed">
           <ul>
@@ -419,14 +506,20 @@
                 href="https://wa.me/2924420035?text= Hola! :) necesito ayuda"
                 role="button"
               >
-                <img class="br" src="images/wppfixed.png" />
+                <img
+                  class="br"
+                  alt="Logo call to action de whatsapp"
+                  src="images/wppfixed.svg"
+                />
               </a>
             </li>
           </ul>
         </nav>
       </section>
+
       <!-- Fin Fixed -->
-    <!-- </main> -->
+
+    </main>
 
     <!-- Inicio Footer -->
 
@@ -509,7 +602,12 @@
                 <h3 class="f-title f_600 t_color f_size_18">Ayuda</h3>
 
                 <ul class="list-unstyled f_list">
-                  <li><a href="#">FAQ</a></li>
+                  <li>
+                    <a
+                      href="https://www.celda.com.ar/institucional/sistema-cooperativo"
+                      >Sistema Cooperativo</a
+                    >
+                  </li>
                   <li>
                     <a
                       href="https://www.celda.com.ar/institucional/lugares-y-formas-de-pago/"
@@ -554,7 +652,7 @@
                   <h3 class="f-title f_600 t_color f_size_18 mt-5">
                     Telegram QR
                   </h3>
-                  <img src="images/qr2.PNG" alt="Telegram" />
+                  <img src="images/qr-2.svg" alt="QR del canal de Telegram" />
                 </div>
               </div>
             </div>
@@ -580,31 +678,51 @@
           </div>
         </div>
       </div>
+      
 
-      <div class="posicionflecha">
-        <!-- Manera rustica de volver a inicio -->
+      <!-- Lottie Alertas -->
 
+      <section class="link-container d-flex justify-content-left">
+        <div>
+          <lottie-player
+            src="https://assets8.lottiefiles.com/packages/lf20_l3sfdi9x.json"
+            background="transparent"
+            speed="0.8"
+            style="width: 300px; height: 300px"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
+      </section>
+
+      <!-- Fin Lottie Alertas -->
+
+
+      <div class="posicionflecha"> <!-- Manera rustica de volver a inicio -->
         <a href="#logoinicio" role="button"
           ><img
             class="volverainicio-item"
-            src="images/flechaarriba.png"
-            alt="Volver a inicio"
+            src="images/flechaarriba.svg"
+            alt="Presiona para volver a inicio"
         /></a>
       </div>
+
     </footer>
 
     <!-- Fin Footer -->
 
-    <!-- Scripts -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="demo.js"></script>
+        <!-- Scripts -->
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="demo.js"></script>
 
-    <!-- Fin Scripts -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+
+        <!-- Fin Scripts -->
+
   </body>
 </html>

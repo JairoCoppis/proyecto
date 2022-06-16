@@ -1,0 +1,89 @@
+.videod {
+	display: none;
+}
+.portadax {
+	display: block;
+}
+
+
+
+@media screen and (max-width: 600px) {
+	.videod {
+		display: block;
+	}
+	.portadax {
+		display: none;
+	}
+}
+@media (max-width: 600px) and (min-width: 400px) {
+	.footersize {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width:990px) {
+	.nav-container {
+		ul {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+ }
+
+
+
+.sensa-mobile {
+	display: none;
+}
+
+@media screen and (max-width:989px) {
+	.sensa-mobile {
+
+		display: block;
+
+	}
+}
+
+@media (min-width:990px) {
+	.sensa-mobile {
+	
+		display: none;
+
+	}
+}
+
+
+
+.sensa-desktop {
+	display: none;
+}
+
+@media screen and (min-width:990px) {
+	.sensa-desktop {
+
+		display: block;
+
+	}
+}
+
+@media (max-width: 600px) {
+	.sensa-desktop {
+	
+		display: none;
+
+	}
+}
+
+@mixin separacion {
+    margin-bottom: 10px;
+}
+  
+
+.tarjetalogo img {
+    @include separacion;
+}
+
+%none {
+    text-decoration: none;
+    outline: none;
+}
