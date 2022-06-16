@@ -233,6 +233,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   font-size: 50px;
   margin-top: 40px; }
 
+.f_size_guardiasblog {
+  font-size: 50px;
+  margin-top: 5px; }
+
 .item-fixed ul {
   position: fixed;
   bottom: 80px;
