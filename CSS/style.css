@@ -157,7 +157,7 @@ body {
   height: auto; }
 
 .disclaimer {
-  display: none; }
+  display: none !important; }
 
 .tutorial-container {
   display: flex;
