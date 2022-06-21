@@ -1,23 +1,20 @@
 * {
+  padding: 0;
 
-    padding: 0;
-    
-    margin: 0;
-    
-    box-sizing: border-box;
-    
+  margin: 0;
+
+  box-sizing: border-box;
 }
 
-
 body {
-    background: white;
+  background: white;
 }
 
 .img-fluid {
-    max-width:100%;
-    height:auto;
-  }
+  max-width: 100%;
+  height: auto;
+}
 
 .disclaimer {
-    display: none;
+  display: none;
 }
